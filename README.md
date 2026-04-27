@@ -2,16 +2,6 @@
   <img src="https://raw.githubusercontent.com/Bl4nsk1/Bl4nsk1/main/banner.png" />
 </p>
 
-# BL4NSK1 // OPERATOR PROFILE
-
-```txt
-┌──────────────────────────────────────────────┐
-│ ROLE: RED TEAM / PENTEST                     │
-│ FOCUS: INTERNAL NETWORK / ACTIVE DIRECTORY   │
-│ STATUS: ACTIVE                              │
-└──────────────────────────────────────────────┘
-```
-
 ---
 
 ## 🧠 ABOUT
