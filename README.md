@@ -4,84 +4,76 @@
 
 ---
 
-## 🧠 ABOUT
+# 🏴 Bl4nsk1
 
-Cybersecurity researcher focused on offensive security, pentesting and red team operations.
-
-Building tools and techniques to turn complex attack paths into repeatable and automated workflows.
+> Cybersecurity researcher focused on offensive security, pentesting and red team operations.
 
 ---
 
-## ⚡ CORE FOCUS
+## ⚡ Core Focus
 
-```txt
-[+] Active Directory Enumeration
-[+] Privilege Escalation
-[+] Lateral Movement
-[+] Internal Network Exploitation
-[+] WPA/WPA2 Cracking
-[+] Attack Automation
+```
+[+] Active Directory Exploitation    [+] Internal Network Pentesting
+[+] Privilege Escalation             [+] Lateral Movement
+[+] WPA/WPA2 Cracking               [+] Attack Automation
 ```
 
----
+## 🧬 Tradecraft
 
-## 🧬 TRADECRAFT
-
-```txt
-[+] Recon & Enumeration
-[+] Credential Access
-[+] Privilege Escalation
-[+] Persistence Techniques
-[+] Defense Evasion
-[+] Workflow Automation
+```
+Phase 1 ─ Recon & Enumeration
+Phase 2 ─ Credential Access
+Phase 3 ─ Privilege Escalation
+Phase 4 ─ Lateral Movement & Pivoting
+Phase 5 ─ Persistence & Defense Evasion
+Phase 6 ─ Automation & Reporting
 ```
 
----
+## 🚀 Projects
 
-## 🚀 PROJECTS
-
-### 🔥 HashCater
-
-Automated Hashcat wrapper focused on WPA/WPA2 cracking.
-
-```txt
+### [HashCater](https://github.com/Bl4nsk1/HashCater)
+Automated Hashcat cracking for WPA/WPA2 pentests.
+```yaml
 status: operational
 type: attack automation
-focus: real-world cracking
-
 features:
- - smart mask prioritization
- - fallback attack logic
- - minimal setup execution
+  - SSID-based smart mask prioritization
+  - ISP heuristics (VIVO, CLARO, TP-LINK, NET)
+  - GPU thermal protection & cooldown
+  - Wordlist + bruteforce combined attacks
+  - Session logging & reporting
 ```
 
----
-
-## 🧰 STACK
-
-```txt
-Languages:
-C / PowerShell / Python / Bash
+### [Cap2Hash](https://github.com/Bl4nsk1/Cap2Hash)
+Batch PCAP/CAP → HC22000 converter with validation.
+```yaml
+status: operational
+type: workflow utility
+features:
+  - Batch conversion with skip logic
+  - Auto-clean invalid outputs
+  - Dependency validation
 ```
 
-## 📡 LIVE TERMINAL
+## 🧰 Stack
 
-```txt
-root@bl4nsk1:~# whoami
-operator
-
-root@bl4nsk1:~# current_focus
-internal network exploitation
-
-root@bl4nsk1:~# next_step
-enumerate -> escalate -> pivot
+```
+Languages ─── C | PowerShell | Python | Bash
+Platforms ─── Windows | Linux
 ```
 
----
+## 📡 Terminal
 
-## 🏴 MINDSET
+```bash
+┌──(bl4nsk1㉿kali)-[~]
+├─ whoami ─────────── operator
+├─ focus ──────────── internal network exploitation
+└─ methodology ────── enumerate → escalate → pivot → persist
+```
 
-```txt
+## 🏴 Mindset
+
+```
 enumeration is leverage
 access is temporary
 automation is control
@@ -89,6 +81,4 @@ automation is control
 
 ---
 
-## ⚠️ DISCLAIMER
-
-For educational and research purposes only.
+⚠️ *All tools and research are for authorized security testing and educational purposes only.*
